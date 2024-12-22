@@ -1,0 +1,35 @@
+                          MAKE MENU
+
+Documentation de la s‚rie Make Menu. Mise … jour le 01/03/1991.
+Auteur: Pr‚martin Patrick.
+
+******************************************************************
+   Make Menu 1.0: (01/02/1991)
+
+* Ce programme est d‚stin‚ … cr‚er un fichier de  commande  (.BAT) 
+… partir duquel, vous pourrez d‚marrer  20  programmes  diff‚rents 
+en frappant uniquement la touche associ‚e.
+
+* Ce programme necessite la pr‚sence du fichier CHOIX.COM dans le 
+r‚pertoire dans lequel vous allez cr‚er  un  menu  en  fichier  de 
+commande.
+
+* Commencez par indiquer  au  programme  le  nom  du  fichier  qui 
+deviendra un menu batch, puis le nombre de programmes … charger  … 
+partir de celui-ci.
+
+* Tapez ensuite le message qui servira de titre … votre menu, puis 
+les chemins d'accŠs des fichiers …  charger  avec  le  message  de 
+l'option … laquelle ils sont li‚s.
+
+* Le programme indique constamment … l'ecran dans quelle phase  il 
+est, et j'espŠre qu'il est assez clair  …  utiliser  grace  …  ses 
+diff‚rentes fenŠtres.
+
+******************************************************************
+Vous pouvez me contacter pour me donner des id‚es de programmes et 
+utilitaires,  mais  aussi  pour  m'indiquer  les  bugs  que   vous 
+trouverez dans mes programmes … l'adresse suivante:
+
+(maj du 22/12/2024 : adresse postale de l'epoque retiree du fichier, me contacter depuis https://developpeur-pascal.fr ou https://olfsoftware.fr pour toute question)
+
