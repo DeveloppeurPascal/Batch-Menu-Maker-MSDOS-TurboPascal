@@ -1,39 +1,39 @@
-# Delphi-Projects-Template
+# Batch Menu Maker - Turbo Pascal - MS-Dos - 1991
 
-[This page in english.](README.md)
+[This page in English.](README.md)
 
-Un modèle de dépôt git pour mes projets Delphi (ou autres).
+Batch Menu Maker est un programme de génération de menus pour fichiers batch sous MS-Dos.
 
-Ce template est distribué sous licence MIT. La licence AGPL est pour les projets que je crée à partir de ce template de dépôt de code. Utilisez la licence que vous voulez si vous utilisez ce template.
+Les menus créés sont des listes d'options accessibles d'une touche dans un fichier d'extension ".bat". Chaque touche lancent un programme ou une commande de l'interpréteur.
 
-Ce dépôt de code contient un projet développé en langage Pascal Objet sous Delphi. Vous ne savez pas ce qu'est Dephi ni où le télécharger ? Vous en saurez plus [sur ce site web](https://delphi-resources.developpeur-pascal.fr/).
+Le générateur de menus a été codé sous [Turbo Pascal](https://fr.wikipedia.org/wiki/Turbo_Pascal) en 1991. La version compilée proposée date de septembre 1993.
 
-## Installation
+Les batchs ont besoin du programme CHOIX.COM également disponible dans le dossier "release". Il a été codé dans [Turbo Assembleur](https://fr.wikipedia.org/wiki/Turbo_Assembler) et vous en trouverez le code source avec celui du générateur dans le sous-dossier "src".
 
-Pour télécharger ce projet il est recommandé de passer par "git" mais vous pouvez aussi télécharger un ZIP directement depuis [son dépôt GitHub](https://github.com/DeveloppeurPascal/XXXXXXXXXX).
+Il est possible que ce programme soit compilable avec [Free Pascal](https://www.freepascal.org) mais je n'ai pas essayé. Les unités non fournies se trouvent dans le dépôt [DeveloppeurPascal/librairies-TurboPascal](https://github.com/DeveloppeurPascal/librairies-TurboPascal). S'il en manque faites le moi savoir pour que je les y ajoute.
 
-**Attention :** si le projet utilise des dépendances sous forme de sous modules ils seront absents du fichier ZIP. Vous devrez les télécharger à la main.
+Découvrez [mes autres projets open source en Turbo Pascal](https://github.com/DeveloppeurPascal?tab=repositories&q=TurboPascal&type=&language=&sort=) si l'archéologie logicielle vous branche.
 
-## Dépendances
+## Présentations et conférences
 
-Ce dépôt de code dépend des dépôts suivants :
+### Twitch
 
-* project 1
-* project 2
+Suivez mes streams de développement de logiciels, jeux vidéo, applications mobiles et sites web sur [ma chaîne Twitch](https://www.twitch.tv/patrickpremartin) ou en rediffusion sur [Serial Streameur](https://serialstreameur.fr) la plupart du temps en français.
 
-## Comment demander une nouvelle fonctionnalité, signaler un bogue ou une faille de sécurité ?
+## Licence d'utilisation de ce dépôt de code et de son contenu
 
-Si vous voulez une réponse du propriétaire de ce dépôt la meilleure façon de procéder pour demander une nouvelle fonctionnalité ou signaler une anomalie est d'aller sur [le dépôt de code sur GitHub](https://github.com/DeveloppeurPascal/XXXXXXXXXX) et [d'ouvrir un ticket](https://github.com/DeveloppeurPascal/XXXXXXXXXX/issues).
+Ces codes sources sont distribués sous licence [AGPL 3.0 ou ultérieure](https://choosealicense.com/licenses/agpl-3.0/).
 
-Si vous avez trouvé une faille de sécurité n'en parlez pas en public avant qu'un correctif n'ait été déployé ou soit disponible. [Contactez l'auteur du dépôt en privé](https://developpeur-pascal.fr/nous-contacter.php) pour expliquer votre trouvaille.
+Vous êtes globalement libre d'utiliser le contenu de ce dépôt de code n'importe où à condition :
+* d'en faire mention dans vos projets
+* de diffuser les modifications apportées aux fichiers fournis dans ce projet sous licence AGPL (en y laissant les mentions de copyright d'origine (auteur, lien vers ce dépôt, licence) obligatoirement complétées par les vôtres)
+* de diffuser les codes sources de vos créations sous licence AGPL
 
-Vous pouvez aussi cloner ce dépôt de code et participer à ses évolutions en soumettant vos modifications si vous le désirez. Lisez les explications dans le fichier [CONTRIBUTING.md](CONTRIBUTING.md).
+Si cette licence ne convient pas à vos besoins vous pouvez acheter un droit d'utilisation de ce projet sous la licence [Apache License 2.0](https://choosealicense.com/licenses/apache-2.0/) ou une licence commerciale dédiée ([contactez l'auteur](https://developpeur-pascal.fr/nous-contacter.php) pour discuter de vos besoins).
 
-## Modèle de licence double (seulement pour mes projets, pas pour ce modèle de dépôt de code)
+Ces codes sources sont fournis en l'état sans garantie d'aucune sorte.
 
-Ce projet est distribué sous licence [AGPL 3.0 ou ultérieure] (https://choosealicense.com/licenses/agpl-3.0/).
-
-Si vous voulez l'utiliser en totalité ou en partie dans vos projets mais ne voulez pas en partager les sources ou ne voulez pas distribuer votre projet sous la même licence, vous pouvez acheter le droit de l'utiliser sous la licence [Apache License 2.0](https://choosealicense.com/licenses/apache-2.0/) ou une licence dédiée ([contactez l'auteur](https://developpeur-pascal.fr/nous-contacter.php) pour discuter de vos besoins).
+Certains éléments inclus dans ce dépôt peuvent dépendre de droits d'utilisation de tiers (images, sons, ...). Ils ne sont pas réutilisables dans vos projets sauf mention contraire.
 
 ## Supportez ce projet et son auteur
 
